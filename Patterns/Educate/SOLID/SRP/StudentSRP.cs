@@ -12,7 +12,7 @@ namespace Patterns.SOLID.SRP
     {
         public string Name { get; set; }
         public string Hobby { get; set; }
-        public string Book { get; set; }
+        public string? Book { get; set; }
 
         public StudentWrong(string Name, string Hobby)
         {
