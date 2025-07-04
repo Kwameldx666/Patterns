@@ -10,8 +10,8 @@ namespace Patterns.Educate.SOLID.Solid2
     //Пример с нарушением принципа 
     public class TransactionError
     {
-        public string Code { get; set; }
-        public string Message { get; set; }
+        public string? Code { get; set; }
+        public string? Message { get; set; }
         public DateTime ReceivMessage { get; set; }
 
         public void SendTransaction()
@@ -51,8 +51,8 @@ namespace Patterns.Educate.SOLID.Solid2
 
     public class TransactionErrorRefactored
     {
-        public string Code { get; set; }
-        public string Message { get; set; }
+        public string? Code { get; set; }
+        public string? Message { get; set; }
         public DateTime ReceivMessage { get; set; }
     }
 
